@@ -1,0 +1,37 @@
+{
+  "name": "<%= appNameSlug %>",
+  "description": "<%= appDescription %>",
+  "main": "<%= appMain %>",
+  "version": "<%= appVersion %>",
+  "license": "<%= appLicense %>",
+  "author": {
+    "name": "<%= appAuthor %>",
+    "email": "<%= appAuthorEmail %>"
+  },
+  "license": "MIT",
+  "keywords": [
+    "pug",
+    "stylus",
+    "express",
+    "gulp",
+    "node",
+    "angular",
+    "underscore",
+    "animate"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "angular": "^1.5.8",
+    "underscore": "^1.8.3",
+    "underscore.string": "^3.3.4"
+  }
+}

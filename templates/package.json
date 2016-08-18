@@ -1,0 +1,42 @@
+{
+  "name": "<%= appNameSlug %>",
+  "version": "<%= appVersion %>",
+  "description": "<%= appDescription %>",
+  "main": "<%= appMain %>",
+  "license": "<%= appLicense %>",
+  "keywords": [
+    "pug",
+    "stylus",
+    "express",
+    "gulp",
+    "node",
+    "angular",
+    "underscore",
+    "animate"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "<%= appAuthor %>",
+    "email": "<%= appAuthorEmail %>"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "bower": "^1.7.9",
+    "browser-sync": "^2.14.0",
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-nodemon": "^2.1.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-pug": "^3.0.4",
+    "gulp-stylus": "^2.5.0",
+    "gulp-uglifycss": "^1.0.6",
+    "httpies": "0.0.0",
+    "pug": "^2.0.0-beta5",
+    "stylus": "^0.54.5",
+    "underscore": "^1.8.3",
+    "underscore.string": "^3.3.4"
+  }
+}
